@@ -1,4 +1,4 @@
-baseURL = "http://arthurolg.com/"
+baseURL = "https://arthurolg.com/"
 languageCode = "es"
 title = "Arturo López"
 theme = "devresume"
