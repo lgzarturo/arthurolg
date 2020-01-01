@@ -56,8 +56,6 @@ googleAnalytics = ""
         [[params.skills.list.items]]
         details = "Trabajo en equipo"
         [[params.skills.list.items]]
-        details = "Strong problem solver"
-        [[params.skills.list.items]]
         details = "Excelente manejo del tiempo"
 
 
