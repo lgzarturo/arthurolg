@@ -2,13 +2,13 @@ baseURL = "https://arthurolg.com/"
 languageCode = "es"
 title = "Arturo López"
 theme = "devresume"
-googleAnalytics = ""
+googleAnalytics = "UA-42486999-1"
 
 [params]
     author = "Arturo López"
-    description = "Resume profesional"
-    primaryColor = "#54B689"
-    textPrimaryColor = "#292929"
+    description = "Resumen profesional"
+    primaryColor = "#77BC6C"
+    textPrimaryColor = "#333333"
 
     [params.profile]
         enable = true
