@@ -1,170 +1,68 @@
 baseURL = "https://arthurolg.com/"
+DefaultContentLanguage = "es"
 languageCode = "es"
 title = "Arturo López"
-theme = "devresume"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClassic = true
+pygmentOptions = "linenos=inline"
 googleAnalytics = "UA-42486999-1"
+disqusShortname = "lgzarturo"
+enableGitInfo = true
 
-[params]
-    author = "Arturo López"
-    description = "Resumen profesional"
-    primaryColor = "#77BC6C"
-    textPrimaryColor = "#333333"
+[Params]
+    homeTitle = "Desarrollo web"
+    subtitle = "Notas sobre diseño y programación de software"
+    mainSections = ["post","posts"]
+    logo = "assets/images/avatar.png"
+    favicon = "assets/images/favicon.svg"
+    dateFormat = "2006-01-02"
+    commit = true
+    rss = true
+    comments = true
+    readingTime = true
+    wordCount = true
+    useHLJS = true
+    socialShare = true
+    delayDisqus = true
+    showRelatedPosts = true
+    gcse = "012631372760530287590:WMX-216129434"
 
-    [params.profile]
-        enable = true
-        name = "Arturo López"
-        tagline = "Desarrollador de Software"
-        avatar = "avatar.png"
+[Author]
+    name = "Arturo López"
+    website = "webdeveloperhints.com"
+    email = "arthurolg@gmail.com"
+    github = "lgzarturo"
+    twitter = "lgzarturo"
+    linkedin = "lgzarturo"
+    instagram = "lgzarturo"
+    youtube = "channel/UCyKhlRUjrZetRu84q9SzUwA"
+    paypal = "arthurolg"
+    telegram = "lgzarturo"
 
-    [params.contact]
-        enable = true
-        location = "Cancún"
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
 
-        [[params.contact.list]]
-        icon = "fas fa-envelope-square"
-        url = "mailto:#me@arthurolg.com"
-        text = "me@arthurolg.com"
-        [[params.contact.list]]
-        icon = "fas fa-globe"
-        url = "https://webdeveloperhints.com/"
-        text = "webdeveloperhints.com"
+[[menu.main]]
+    name = "Sobre mí"
+    url = "about/"
+    weight = 2
 
-    [params.skills]
-        enable = true
+[[menu.main]]
+  name = "Perfil"
+  url = "profile/"
+  weight = 2
 
-        [[params.skills.list]]
-        title = "Técnico"
-        [[params.skills.list.items]]
-        details = "JavaScript/jQuery"
-        [[params.skills.list.items]]
-        details = "Java/Groovy/Kotlin/Python/PHP"
-        [[params.skills.list.items]]
-        details = "Grails/Spring Boot/Micronaut"
-        [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
-        [[params.skills.list.items]]
-        details = "Diseño orientado a objetos"
-        [[params.skills.list.items]]
-        details = "Implementación y diseño de estructuras de datos (DB)"
-        [[params.skills.list.items]]
-        details = "Liderar y entregar sistemas de software complejos"
-
-        [[params.skills.list]]
-        title = "Profesional"
-        [[params.skills.list.items]]
-        details = "Comunicación efectiva"
-        [[params.skills.list.items]]
-        details = "Trabajo en equipo"
-        [[params.skills.list.items]]
-        details = "Excelente manejo del tiempo"
-
-
-    [params.education]
-        enable = true
-
-        [[params.education.list]]
-        degree = "Ingeniero en Sistemas"
-        university = "ITCancún"
-        dates = "2000 - 2005"
-
-
-    [params.languages]
-        enable = true
-
-        [[params.languages.list]]
-        name = "Español"
-        level = "Nativo"
-        [[params.languages.list]]
-        name = "Inglés"
-        level = "Técnico"
-
-    [params.interests]
-        enable = true
-
-        [[params.interests.list]]
-        name = "Cine"
-        [[params.interests.list]]
-        name = "Viajes"
-        [[params.interests.list]]
-        name = "Fotografía"
-        [[params.interests.list]]
-        name = "Diseño"
-
-    [params.summary]
-        enable = true
-        text = "Mi objetivo es adaptarme a las necesidades del mercado, creando soluciones innovadoras de alto valor para la empresa. Explorar nuevas tecnologías, siguiendo estándares de desarrollo y trabajo en equipo para desarrollarme profesionalmente. Tengo experiencia en el desarrollo de software, administración de proyectos, proceso de venta, consultoría, servicio, atención al cliente y diseño de soluciones de negocio. Habilidades en distintas plataformas, negociación, búsqueda de soluciones y desarrollo de software en base a metodologías agiles."
-
-    [params.experience]
-        enable = true
-
-        [[params.experience.list]]
-        title = "Desarrollador de Software"
-        dates = "2019 - Present"
-        company = "Revenatium"
-        details = "Desarrollo de soluciones de marketing, progrmación backend de microservcios con lenguajes Java, Groovy y Kotlin."
-
-        [[params.experience.list]]
-        title = "Arquitecto de Software"
-        dates = "2018 - 2019"
-        company = "StarTalent"
-        details = "Desarrollo de un sistema ATS para el control de vacante y el registro de candidatos. Sistema para el manejo de candidaturas."
-
-        [[params.experience.list]]
-        title = "Jefe de Marketing"
-        dates = "2016 - 2018"
-        company = "Grupo Argos"
-        details = "Desarrollo de estrategias de marketing digital, líder de proyecto, planeación de productos e implementación de herramientas para los departamentos de la compañía. Implementar estrategias de Inbound Marketing para aumentar el tráfico orgánico de los sitios web de la empresa."
-
-        [[params.experience.list]]
-        title = "Desarrollador de Software"
-        dates = "2012 - 2016"
-        company = "Grupo Argos"
-        details = "Desarrollo de distintas soluciones a través de la plataforma Grails. Diseño, planeación y desarrollo de los sitios web de la compañía. Responsable directo del área de Marketing y de la planeación estratégica. Diseño y adaptación de la soluciones de Salesforce y Pipedrive para distintos departamentos dentro de la compañía. Desarrollo de nuevos productos según los requerimientos de la compañía. Incremento en el tráfico web y mejora del posicionamiento de los sitios web de la compañía."
-
-        [[params.experience.list]]
-        title = "Desarrollador de Software"
-        dates = "2009 - 2012"
-        company = "Sunset World"
-        details = "Desarrollo de distintas soluciones a través de la plataforma Playframework. Desarrollo de nuevos productos según los requerimientos de los clientes. Arquitecto de software para el desarrollo de un CRM, Sistema de Reservaciones y herramientas de control de archivos. Responsable de la elaboración, coordinación e implementación de diversos proyectos."
-
-        [[params.experience.list]]
-        title = "Soporte Técnico"
-        dates = "2005 - 2009"
-        company = "Startup"
-        details = "Servicios profesionales en tecnología, soporte técnico, redes y programación de sitios web en PHP."
-
-    [params.projects]
-        enable = true
-
-        [[params.projects.list]]
-        title = "StarTalent"
-        meta = "ATS"
-        tagline = "Participo en el proyecto como líder, desarrollador, administrador del servidor y planeación del producto. Actualmente se enfoca en ser una solución de reclutamiento para cualquier tipo de empresa."
-
-        [[params.projects.list]]
-        title = "Webdeveloperhints"
-        meta = "Sitio web"
-        tagline = "Sitio web para publicar artículos de tecnología y desarrollo de software."
-
-    [params.social]
-        enable = true
-
-        [[params.social.list]]
-        icon = "fab fa-github-square"
-        url = "//github.com/lgzarturo"
-        title = "GitHub"
-        [[params.social.list]]
-        icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/lgzarturo"
-        title = "LinkedIn"
-        [[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "//twitter.com/lgzarturo"
-        title = "@lgzarturo"
-        [[params.social.list]]
-        icon = "fas fa-file-pdf"
-        url = "assets/files/perfil-profesional-arturo-lopez.pdf"
-        title = "CV Arturo López"
+[[menu.main]]
+    name = "Etiquetas"
+    url = "tags"
+    weight = 2
 
 [params.footer]
     copyright = "Arturo López - Creative Commons Atribución 4.0 Internacional"
