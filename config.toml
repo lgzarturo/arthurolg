@@ -11,7 +11,7 @@ pygmentsCodefencesGuessSyntax = true
 pygmentsUseClassic = true
 pygmentOptions = "linenos=inline"
 googleAnalytics = "UA-42486999-1"
-disqusShortname = "lgzarturo"
+disqusShortname = "arthurolg-com"
 enableGitInfo = true
 
 [Params]
