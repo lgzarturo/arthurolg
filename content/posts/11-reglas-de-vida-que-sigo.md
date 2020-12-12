@@ -3,13 +3,11 @@ author: "Arturo López"
 title: "11 reglas de vida que sigo al pie de la letra"
 date: 2020-12-11
 description: "11 reglas de la vida que tus hijos no aprenden en el colegio."
-tags: ["proyectos", "desarrollo web"]
-categories: ["programación", "web developer"]
+tags: ["frases", "desarrollo personal"]
+categories: ["Frases de vida"]
 ---
 
-Alguna vez en algún artículo vi que promocionaban las 11 reglas que Bill Gates sigue en su vida, al leerlas extrañamente me parecieron geniales y desde ese dia decidí que las adoptaría en la manera en como vivo.
-
-## BILL GATES
+Alguna vez en algún artículo vi que promocionaban las 11 reglas que Bill Gates sigue en su vida, al leerlas extrañamente me parecieron geniales y desde ese dia decidí que las adoptaría en la manera en como vivo:
 
 - **Regla Uno**: La vida no es justa, acostúmbrate a ello.
   
@@ -31,4 +29,4 @@ Alguna vez en algún artículo vi que promocionaban las 11 reglas que Bill Gates
 
 - **Regla Diez**: La televisión no es la vida real. En la vida cotidiana, la gente de verdad tiene que salir del café de la película para irse a trabajar.
 
-- **Regla Once*: Sé amable con los **"NERDS"** (*los más aplicados de tu clase*). Existen muchas probabilidades de que termines trabajando para uno de ellos.
+- **Regla Once**: Sé amable con los **"NERDS"** (*los más aplicados de tu clase*). Existen muchas probabilidades de que termines trabajando para uno de ellos.
