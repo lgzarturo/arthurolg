@@ -15,6 +15,12 @@ export const ThemeProvider = ({ children }) => {
 
   const toggleTheme = () => {
     setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
+    window.dataLayer.push({
+      event: 'theme_change',
+      event_category: 'theme',
+      event_label: 'toggle-theme',
+      event_value: theme
+    });
   };
 
   return (
