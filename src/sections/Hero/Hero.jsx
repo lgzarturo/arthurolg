@@ -1,3 +1,5 @@
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FiExternalLink } from "react-icons/fi";
 import { GrGithub, GrLinkedin } from "react-icons/gr";
 import { LuMoonStar, LuSun } from "react-icons/lu";
 import avatarImg from '../../assets/lgzarturo.jpg';
@@ -22,11 +24,17 @@ function Hero() {
         </h1>
         <h2>Java Developer</h2>
         <span>
-          <a href="https://linkedin.com/me/lgzarturo" target="_blank">
+          <a href="https://www.linkedin.com/in/lgzarturo" target="_blank">
             <GrLinkedin className={themeIconClass} />
           </a>
           <a href="https://github.com/lgzarturo" target="_blank">
             <GrGithub className={themeIconClass} />
+          </a>
+          <a href="https://x.com/lgzarturo" target="_blank">
+            <FaSquareXTwitter className={themeIconClass} />
+          </a>
+          <a href="https://github.com/lgzarturo/arthurolg/blob/main/README.md" target="_blank">
+            <FiExternalLink className={themeIconClass} />
           </a>
         </span>
         <p className={styles.description}>
