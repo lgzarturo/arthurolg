@@ -49,8 +49,8 @@ function Hero() {
         <span>
           <a href="https://www.linkedin.com/in/lgzarturo"
             data-category="linkedin"
-            data-label="linkedin-profile"
-            data-event="social-click"
+            data-label="linkedin_profile"
+            data-event="social_click"
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleClick}>
@@ -58,15 +58,17 @@ function Hero() {
           </a>
           <a href="https://github.com/lgzarturo"
             data-category="github"
-            data-label="github-profile"
-            data-event="social-click"
+            data-label="github_profile"
+            data-event="social_click"
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleClick}>
             <GrGithub className={themeIconClass} />
           </a>
           <a href="https://x.com/lgzarturo"
-            data-name="x"
+            data-category="x"
+            data-label="x_profile"
+            data-event="social_click"
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleClick}>
@@ -74,7 +76,7 @@ function Hero() {
           </a>
           <a href="https://github.com/lgzarturo/arthurolg/blob/main/README.md"
             data-category="github"
-            data-label="arthurolg-github-profile"
+            data-label="arthurolg_github_profile"
             data-event="click"
             target="_blank"
             rel="noopener noreferrer"
@@ -88,7 +90,7 @@ function Hero() {
         <a href={CV}
           download
           data-category="download"
-          data-label="arthurolg-pdf-cv"
+          data-label="arthurolg_pdf_cv"
           data-event="conversion"
           onClick={handleClick}>
           <button className="hover">Descargar CV</button>

@@ -18,7 +18,7 @@ export const ThemeProvider = ({ children }) => {
     window.dataLayer.push({
       event: 'theme_change',
       event_category: 'theme',
-      event_label: 'toggle-theme',
+      event_label: 'toggle_theme',
       event_value: theme
     });
   };

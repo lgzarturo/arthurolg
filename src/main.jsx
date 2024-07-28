@@ -1,9 +1,9 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import { ThemeProvider } from './common/ThemeContext.jsx'
-import { initializeGTM } from './gtm'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import { ThemeProvider } from './common/ThemeContext.jsx';
+import { initializeGTM } from './gtm';
+import './index.css';
 
 initializeGTM();
 
