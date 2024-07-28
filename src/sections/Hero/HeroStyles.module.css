@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  height: 100dvh;
+  min-height: 500px;
+
+  .hero {
+    max-width: 200px;
+    border-radius: 50%;
+  }
+
+  span {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+
+    a {
+      margin: 0;
+
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+
+  a {
+    width: fit-content;
+    align-self: center;
+  }
+
+  button {
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    border: none;
+    border-radius: 20px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+  }
+
+  button:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+  }
+
+  button:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    transform: translateY(2px);
+  }
+}
+
+.colorModeContainer {
+  position: relative;
+}
+
+.colorModeIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.colorModeIcon:hover {
+  cursor: pointer;
+}
+
+.description {
+  max-width: 24ch;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.light {
+  color: var(--text-color);
+}
+
+.dark {
+  color: var(--footer-text-color);
+}
