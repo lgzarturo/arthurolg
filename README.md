@@ -1,8 +1,12 @@
 # Perfil profesional
 
-**Arturo López** -
-Desarrollador de Software
-[arthurolg.com](https://arthurolg.com/)
+**Arturo López Gómez** -
+**Ingeniero en Sistemas | Desarrollador Web & Líder Técnico**
+
+📍 Cancún, Quintana Roo, México
+📞 998-222-9740
+📧 <lgzarturo@gmail.com>
+🌐 [LinkedIn](https://www.linkedin.com/in/lgzarturo)
 
 ---
 
@@ -18,29 +22,28 @@ Desarrollador de Software
 
 ## Habilidades
 
-### Técnico
+### Técnicas
 
-- JavaScript/jQuery
-- Java/Groovy/Kotlin/Python/PHP
-- Grails/Spring Boot/Micronaut
-- PostgreSQL/MySQL
-- Diseño orientado a objetos
-- Implementación y diseño de estructuras de datos (DB)
-- Liderar y entregar sistemas de software complejos
+- **Lenguajes de Programación:** Java, Kotlin, Python, PHP, JavaScript, TypeScript, Groovy.
+- **Frameworks:** Spring Boot, Django y Laravel.
+- **Bases de Datos:** MySQL, MongoDB.
+- **Herramientas:** Docker, Git, GitHub Actions, AWS, DigitalOcean.
+- **Metodologías:** Desarrollo Ágil, DevOps, Inbound Marketing.
 
 ### Profesional
 
 - Comunicación efectiva
 - Trabajo en equipo
 - Excelente manejo del tiempo
+- Automatización de procesos
 
 ---
 
 ## Experiencia
 
-- Desarrollador de Software (2019 - Present) : Revenatium
+- Java Software Engineer (2019 - Present) : Revenatium
 - Arquitecto de Software (2018 - 2019) : StarTalent
 - Jefe de Marketing (2016 - 2018) : Grupo Argos
-- Desarrollador de Software (2012 - 2016) : Grupo Argos
-- Desarrollador de Software (2009 - 2012) : Sunset World
-- Soporte Técnico (2005 - 2009) : Startup
+- Programador Grails/Java (2012 - 2016) : Grupo Argos
+- Programador Java/Webmaster (2009 - 2012) : Sunset World
+- Soporte Técnico (2005 - 2009) : Freelance Startup

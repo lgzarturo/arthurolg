@@ -3,7 +3,8 @@ import { FiExternalLink } from "react-icons/fi";
 import { GrGithub, GrLinkedin } from "react-icons/gr";
 import { LuMoonStar, LuSun } from "react-icons/lu";
 import avatarImg from '../../assets/lgzarturo.jpg';
-import CV from '../../assets/Profile-ArturoLopez.pdf';
+import CV from '../../assets/WebDeveloper-ArturoLopez.pdf';
+import Presentation from '../../assets/Perfil_Profesional_Arturo_Lopez.pdf'
 import { useTheme } from "../../common/ThemeContext";
 import styles from './HeroStyles.module.css';
 
@@ -93,7 +94,15 @@ function Hero() {
           data-label="arthurolg_pdf_cv"
           data-event="conversion"
           onClick={handleClick}>
-          <button className="hover">Descargar CV</button>
+          <button className="hover">Descargar Curriculum</button>
+        </a>
+        <a href={Presentation}
+          download
+          data-category="download"
+          data-label="arthurolg_pdf_presentation"
+          data-event="conversion"
+          onClick={handleClick}>
+          <button className="hover">Presentación</button>
         </a>
       </div>
     </section>
