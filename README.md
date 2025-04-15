@@ -1,22 +1,14 @@
 # Perfil profesional
 
-**Arturo López Gómez** -
-**Ingeniero en Sistemas | Desarrollador Web & Líder Técnico**
+## **Arturo López Gómez**
 
-📍 Cancún, Quintana Roo, México
-📞 998-222-9740
-📧 <lgzarturo@gmail.com>
-🌐 [LinkedIn](https://www.linkedin.com/in/lgzarturo)
+### **Ingeniero en Sistemas | Desarrollador Web & Líder Técnico**
 
----
-
-## Datos de contacto
-
-- Ubicación: Cancún
-- Correo: [lgzarturo@gmail.com](mailto:lgzarturo@gmail.com)
-- GitHub: [https://github.com/lgzarturo](https://github.com/lgzarturo)
-- LinkedIn: [https://linkedin.com/in/lgzarturo](https://linkedin.com/in/lgzarturo)
-- Twitter: [https://twitter.com/lgzarturo](https://twitter.com/lgzarturo)
+- 📍 Cancún, Quintana Roo, México
+- 📞 998-222-9740
+- 📧 <lgzarturo@gmail.com>
+- 🌐 [LinkedIn](https://www.linkedin.com/in/lgzarturo)
+- 🌐 [X.com](https://x.com/arturolgdev)
 
 ---
 

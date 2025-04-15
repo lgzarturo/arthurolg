@@ -66,7 +66,7 @@ function Hero() {
             onClick={handleClick}>
             <GrGithub className={themeIconClass} />
           </a>
-          <a href="https://x.com/lgzarturo"
+          <a href="https://x.com/arturolgdev"
             data-category="x"
             data-label="x_profile"
             data-event="social_click"
